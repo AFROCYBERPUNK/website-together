@@ -1,0 +1,44 @@
+@import url('../../css/global.css');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #f2f5f7;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url('../../img/home/fundo.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*cards*/
+main{
+    top: 50%;
+    margin-top: 150px;
+}
+
+h1{
+  margin-left: 90px;
+  margin-top: 30px;
+  color: #8b0000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+.card{
+	background-color: #8b0000;
+	border-radius: 50%;
+	width: 130px;
+	height: 130px;
+	display: inline-block;
+	margin: 90px;
+}
+  

@@ -1,0 +1,33 @@
+@import url('../../css/global.css');
+
+body{
+  background-image: url(../../img/home/fundo.jpeg);
+}
+.imprensa{
+    display:inline-block;
+    width: 700px;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+.imprensa p{
+  color: #8b0000;
+  font-style: italic;
+} 
+.img{
+    display:inline-block;
+    margin: 40px;
+}
+
+.jornais{
+  width: 400px;
+}
+@media only screen and (max-width: 380px) {
+  .imprensa {
+    width: 300px;
+    margin: 30px;
+  }
+  .jornais{
+    width: 300px;
+    margin: auto;
+  }
+}

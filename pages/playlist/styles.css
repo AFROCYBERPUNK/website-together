@@ -1,0 +1,70 @@
+@import url('../../css/global.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f2f5f7;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+
+}
+
+body {
+    display: flex;
+    background-image: url('../../img/home/fundo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    top: 50%;
+    margin-top: 150px;
+}
+
+h1 {
+    margin-left: 115px;
+    margin-top: 30px;
+    color: #8b0000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.logo_div {
+    width: 100px;
+    position: absolute;
+    right: 12%;
+    top: 22%;
+    margin: auto;
+}
+.spotify-embeds {
+    width: 150%;
+    padding: 50px;  
+}
+
+.spotify-embed {
+    background: #282828;
+}
+
+.spotify-embed>:not(:last-of-type) {
+    margin-bottom: 5px;
+}
+
+iframe {
+    display: block;
+    transition: opacity 0.125s;
+}
+
+@media only screen and (max-width: 380px) {
+    .spotify-embeds {
+        width: 100%;
+        padding: 60px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .spotify-embeds {
+        width: 240%;
+        padding: 50px 120px;
+    }
+}

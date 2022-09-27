@@ -1,0 +1,131 @@
+@import url('../../css/global.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f2f5f7;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    
+}
+body {
+    background-color: #EBC64C;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main{
+    top: 50%;
+    margin-top: 150px;
+}
+
+h1{
+  margin-left: 90px;
+  margin-top: 30px;
+  color: #8b0000;
+  font-style: italic;
+  font-weight: bold;
+}
+h2{
+    margin-left: 90px;
+    margin-top: 10px;
+    color: #8b0000;
+    font-style: italic;
+    font-size: 15px;
+}
+b{
+    color: #8b0000; 
+    font-weight: bold;
+}
+
+.inner-img-contact {
+    position: absolute;
+    left: auto;
+    height: 50%;
+    width: 30%;
+    display: inline-flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: right;
+    top: 50%;
+    right: 100px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+
+.form-container form button {
+    border: none;
+    max-width: 150px;
+    align-self: center;
+}
+
+.form-container form button:hover {
+    color: #eb1212;
+}
+
+
+button {
+    padding: 16px 32px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #8b0000;
+    background-color: #f2f5f7;
+}
+
+input,
+textarea {
+    border: 2px solid transparent;
+    background-color: #f2f5f7;
+    color: #8b0000;
+    padding: 8px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+
+label {
+    margin-bottom: 9px;
+    color: #8b0000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+    outline: none;
+    border-color: white;
+}
+
+/* @media all and (min-width: 640px) {
+    .form-container form {
+        padding: 20px;
+    }
+    .form-container {
+        flex-basis: 20%;
+        position: relative; 
+    }
+    .inner-img-contact {
+        top: 130%;
+        right: -80px;
+    }
+    
+}
+*/
+  @media all and  (min-width: 1200px) {
+    .form-container form {
+        padding: 90px;
+    }
+    .form-container {
+        flex-basis: 50%;
+        position: relative; 
+    }
+   
+  } 

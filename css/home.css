@@ -1,0 +1,86 @@
+@import url('global.css');
+
+body{
+  background-image: url('../img/home/fundo.jpeg');
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
+
+.img_1{
+  width: 330px;
+  position:absolute;
+	left:22%;
+	top:50%;
+	margin-left:-100px;
+	margin-top:-40px;
+}
+.img_2{
+  width: 440px;
+  position:absolute;
+	left:50%;
+	top:30%;
+	margin-left:-110px;
+	margin-top:-30px;
+}
+
+.img_3{
+  width: 320px;
+  position:absolute;
+	right:10%;
+	top:55%;
+  margin: auto;
+}
+.logo_home{
+  width: 120px;
+  position:absolute;
+	right:12%;
+	top:30%;
+  margin: auto; 
+}
+button{
+  background: red;
+  color: white;
+  width: 300px;
+  position:absolute;
+	left:14%;
+	top:90%;
+  margin: auto;
+  border: none;
+  border-radius: 40px;
+  cursor:pointer;
+  box-shadow: 2px 4px 4px 2px black;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 740px){
+  body{
+    background-size: 500%;
+  }
+  .logo_home{
+    width: 100px;
+    right:12%;
+	  top:20%;
+  }
+  .img_1{
+    width: 250px;
+    left:45%;
+    top:50%;
+  }
+  .img_2{
+    width: 160px;
+    left:45%;
+    top:95%;
+  }
+  
+  .img_3{
+    width: 130px;
+    right:10%;
+    top:104%;
+  }
+  button{
+    width: 200px;
+    left:15%;
+    top:80%;
+    font-size: 10px;
+  }
+}
