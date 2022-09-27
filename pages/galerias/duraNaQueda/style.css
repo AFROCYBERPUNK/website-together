@@ -1,9 +1,36 @@
 @import url('../../../css/global.css');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #f2f5f7;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+
+}
 body{
+  display: flex;
   background-image: url(../../../img/home/fundos.jpeg);
   background-repeat: no-repeat;
-  background-size: 300%;
+  background-size: 200%;
+}
+main{
+  top: 50%;
+  margin-top: 150px;
+}
+h1 {
+  margin-left: 90px;
+  margin-top: 30px;
+  color: #f2f5f7;
+  font-style: italic;
+  font-weight: bold;
+}
+h3{
+  margin-left: 90px;
+  color: #f2f5f7;
+  font-style: italic;
+  font-weight: bold;
 }
 .container {
   width: 100%;
@@ -86,18 +113,24 @@ body{
   top: 2;
   margin: auto;
   padding: 10;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: black;
   border-radius: 1%;
+}
+.container{
+  margin-left: 450px;
 }
 }
 
 @media screen and (max-width: 800px) and (min-width: 300px){
+  body{
+    background-size: 700%;
+  }
   .list {
     position: relative;
-    width: 50%;
-    height: 300px;
+    width: 5%;
+    height: 100px;
     margin: 0;
     padding: 0;
     margin-top: 0;
@@ -107,16 +140,24 @@ body{
   
 
   .list-item {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 2;
-  top: 2;
-  margin: auto;
-  padding: 10;
-  width: 300px;
-  height: 300px;
-  background-color: black;
-  border-radius: 1%;
-}
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    top: 20px;
+    margin: 2;
+    padding: 10;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 1%;
+  }
+  
+  .container{
+    margin-left: 200px;
+  }
+  h1, h3{
+    font-size: 20px;
+    margin-left: 30px;
+  }
 }
