@@ -1,33 +1,71 @@
 @import url('../../css/global.css');
 
-body{
-  background-image: url(../../img/home/fundo.jpeg);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #f2f5f7;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+
 }
+
+body {
+  display: flex;
+  background-image: url('../../img/home/fundo.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  top: 50%;
+  margin-top: 150px;
+}
+
+h1 {
+  margin-left: 135px;
+  margin-top: 30px;
+  color: #8b0000;
+  font-style: italic;
+  font-weight: bold;
+}
+
 .imprensa{
-    display:inline-block;
-    width: 700px;
-    margin-left: 50px;
-    vertical-align: middle;
+    float: left;
+    margin: 0;
+    
 }
 .imprensa p{
   color: #8b0000;
   font-style: italic;
+  font-weight: bold;
 } 
 .img{
-    display:inline-block;
     margin: 40px;
+    float: right;
+    margin: 0;
+    padding: 5px;
+
 }
 
 .jornais{
   width: 400px;
 }
-@media only screen and (max-width: 380px) {
+@media screen and (max-width: 800px) and (min-width: 240px)  {
   .imprensa {
     width: 300px;
     margin: 30px;
   }
   .jornais{
     width: 300px;
-    margin: auto;
+    margin-right: 25px;
   }
+}
+@media only screen and (min-width: 1300px){
+.imprensa{
+  width: 860px;
+  margin-left: 50px;
+  padding: 90px;
+}
 }
