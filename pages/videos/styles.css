@@ -1,0 +1,110 @@
+@import url("../../css/global.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f2f5f7;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+
+}
+
+body {
+    display: flex;
+    background-image: url('../../img/home/fundo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    top: 50%;
+    margin-top: 150px;
+}
+
+h1 {
+    margin-left: 115px;
+    margin-top: 30px;
+    color: #8b0000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.logo_div {
+    width: 100px;
+    position: absolute;
+    right: 12%;
+    top: 22%;
+    margin: auto;
+}
+
+/*Carrosel Videos*/
+.mySlides {
+    display: none
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 40px;
+  margin-left: 280px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  /* user-select: none; */
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  } 
+  to {
+    opacity: 1
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media screen and (max-width: 900px) and (min-width: 240px){
+    .prev, .next {
+        font-size: 11px
+      }
+      .slideshow-container {
+        margin: 50px;
+        margin-left: 20px;
+        margin-top: 100px;
+      }
+      
+      iframe{
+        width: 390px;
+      }
+}
