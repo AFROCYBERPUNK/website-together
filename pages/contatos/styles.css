@@ -48,7 +48,7 @@ b{
     flex-direction: row;
     align-content: flex-end;
     justify-content: right;
-    top: 50%;
+    top: 70%;
     right: 100px;
 }
 
@@ -104,22 +104,8 @@ textarea:focus-visible {
     border-color: white;
 }
 
-/* @media all and (min-width: 640px) {
-    .form-container form {
-        padding: 20px;
-    }
-    .form-container {
-        flex-basis: 20%;
-        position: relative; 
-    }
-    .inner-img-contact {
-        top: 130%;
-        right: -80px;
-    }
-    
-}
-*/
-  @media all and  (min-width: 1200px) {
+
+  @media all and  (min-width: 1300px) {
     .form-container form {
         padding: 90px;
     }
@@ -129,3 +115,19 @@ textarea:focus-visible {
     }
    
   } 
+  @media screen and (max-width: 800px) and (min-width: 240px){
+    h2, b{
+        font-size: 18px;
+        margin: 10px;
+    }
+    .form-container form{
+        width: 250px;
+        margin: 40px;
+        margin-left: 80px;
+    }
+    .inner-img-contact{
+        top: 100%;
+        width: 160px;
+        margin-right: 40px;
+    }
+  }
