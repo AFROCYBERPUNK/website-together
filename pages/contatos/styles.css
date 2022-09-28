@@ -42,13 +42,13 @@ b{
 .inner-img-contact {
     position: absolute;
     left: auto;
-    height: 50%;
-    width: 30%;
+    height: 60%;
+    width: 40%;
     display: inline-flex;
     flex-direction: row;
     align-content: flex-end;
     justify-content: right;
-    top: 70%;
+    top: 60%;
     right: 100px;
 }
 
