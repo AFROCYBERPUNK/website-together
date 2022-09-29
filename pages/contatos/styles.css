@@ -117,14 +117,15 @@ textarea:focus-visible {
   } 
   @media screen and (max-width: 600px) and (min-width: 240px){
     h2{
-        font-size: 18px;
+        font-size: 15px;
         margin: 10px;
     }
     h1{
+        font-size: 20px;
         margin: 10px;
     }
     b{
-        font-size: 16px;
+        font-size: 15px;
     }
     .form-container form{
         width: 350px;
