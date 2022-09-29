@@ -1,63 +1,12 @@
 @import url('global.css');
-
-body{
-  background-image: url('../img/home/fundo.jpeg');
-  background-size: 200%;
-  background-repeat: no-repeat;
+*{
+  margin: 0;
+  padding: 0;
+  color: #f2f5f7;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
-a{
-  text-decoration: none;
-}
-
-
-.img_1{
-  width: 340px;
-  position:absolute;
-	left:22%;
-	top:50%;
-	margin-left:-100px;
-	margin-top:-40px;
-  object-fit: cover;
-}
-.img_2{
-  width: 440px;
-  position:absolute;
-	left:50%;
-	top:30%;
-	margin-left:-110px;
-	margin-top:-30px;
-}
-
-.img_3{
-  width: 320px;
-  position:absolute;
-	right:10%;
-	top:55%;
-  margin: auto;
-}
-.logo_home{
-  width: 120px;
-  position:absolute;
-	right:12%;
-	top:30%;
-  margin: auto; 
-}
-
-button{
-  background: red;
-  color: white;
-  width: 300px;
-  position:absolute;
-	left:15%;
-	top:90%; 
-  margin: auto;
-  border: none;
-  border-radius: 40px;
-  cursor:pointer;
-  box-shadow: 2px 4px 4px 2px black;
-  text-transform: uppercase;
-}
-
 body{
   background-image: url('../img/home/fundo.jpeg');
   background-size: 200%;
@@ -99,11 +48,10 @@ a{
   margin: auto; 
 }
 button{
-  background: red;
-  color: white;
-  width: 300px;
+  background: #b90e0e;
+  width: 340px;
   position:absolute;
-	left:15%;
+	left:14%;
 	top:90%;
   margin: auto;
   border: none;
@@ -111,8 +59,11 @@ button{
   cursor:pointer;
   box-shadow: 2px 4px 4px 2px black;
   text-transform: uppercase;
+  padding: 8px 6px 6px 4px;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: bold;
 }
-
 @media screen and (max-width: 1250px){
   body{
     background-size: 400%;
