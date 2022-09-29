@@ -116,14 +116,19 @@ textarea:focus-visible {
    
   } 
   @media screen and (max-width: 600px) and (min-width: 240px){
-    h2, b{
+    h2{
         font-size: 18px;
         margin: 10px;
     }
+    h1{
+        margin: 10px;
+    }
+    b{
+        font-size: 16px;
+    }
     .form-container form{
-        width: 400px;
-        margin: 40px;
-        margin-left: 20px;
+        width: 350px;
+        margin-left: 10px;
     }
     .inner-img-contact{
         display: none;
