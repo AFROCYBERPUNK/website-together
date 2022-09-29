@@ -9,7 +9,9 @@
     
 }
 body {
-    background-color: #EBC64C;
+    background-image: url('../../img/home/fundo.jpeg');
+    background-repeat: no-repeat;
+    background-size: 200%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -116,6 +118,9 @@ textarea:focus-visible {
    
   } 
   @media screen and (max-width: 600px) and (min-width: 240px){
+    body{
+        background-size: 500%;
+    }
     h2{
         font-size: 14px;
         margin: 10px;
