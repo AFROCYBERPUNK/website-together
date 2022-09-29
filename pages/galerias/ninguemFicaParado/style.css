@@ -123,6 +123,7 @@
   .timeline-item:last-child {
     padding-bottom: 40px;
   }
+  
 }
 .timeline__img {
   max-width: 100%;
