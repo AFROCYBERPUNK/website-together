@@ -55,7 +55,7 @@ iframe {
     transition: opacity 0.125s;
 }
 
-@media screen and (max-width: 800px) and (min-width: 240px) {
+@media screen and (max-width: 600px) and (min-width: 240px) {
     .spotify-embeds {
         width: 100%;
         padding: 60px;
@@ -69,9 +69,9 @@ iframe {
     }
 }
 
-@media only screen and (min-width: 1300px) {
+@media screen and (max-width: 1480px) and (min-width: 980px){
     .spotify-embeds {
-        width: 240%;
-        padding: 50px 120px;
+        width: 210%;
+        padding: 50px 160px;
     }
 }
