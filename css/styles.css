@@ -52,7 +52,40 @@ button{
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 740px){
+@media screen and (max-width: 1250px) and (min-width: 800px){
+  body{
+    background-size: 400%;
+  }
+  .logo_home{
+    width: 100px;
+    right:12%;
+	  top:20%;
+  }
+  .img_1{
+    width: 450px;
+    left:40%;
+    top:50%;
+  }
+  .img_2{
+    width: 260px;
+    left:50%;
+    top:115%;
+  }
+  
+  .img_3{
+    width: 230px;
+    right:20%;
+    top:130%;
+  }
+  button{
+    width: 200px;
+    left:450px;
+    top:100%;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 240px){
   body{
     background-size: 500%;
   }
@@ -79,8 +112,9 @@ button{
   }
   button{
     width: 200px;
-    left:80px;
+    left:90px;
     top:80%;
     font-size: 10px;
   }
 }
+
