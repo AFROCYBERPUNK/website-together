@@ -1,0 +1,86 @@
+@import url('../../css/global.css');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #f2f5f7;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+
+}
+
+body {
+  display: flex;
+  background-image: url('../../img/home/fundo.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  top: 50%;
+  margin-top: 150px;
+}
+
+h1 {
+  margin-left: 135px;
+  margin-top: 30px;
+  color: #8b0000;
+  font-style: italic;
+  font-weight: bold;
+  width: 480px;
+}
+.logo_div {
+    width: 100px;
+    position: absolute;
+    right: 12%;
+    top: 22%;
+    margin: auto;
+}
+.sobre{
+    float: left;
+    margin: 0;
+    
+}
+.sobre p{
+  color: #8b0000;
+  font-style: italic;
+} 
+.img{
+    margin: 20px;
+    float: right;
+    margin: 0;
+    padding: 4px;
+
+}
+
+.img_Gil{
+  width: 400px;
+}
+@media screen and (max-width: 800px) and (min-width: 240px)  {
+  .sobre {
+    width: 300px;
+    margin: 30px;
+  }
+  .img_Gil{
+    width: 300px;
+    margin-right: 25px;
+  }
+  .logo_div {
+    width: 60px;
+}
+h1 {
+    margin-left: 30px;
+    font-size: 20px;
+    width: 230px;
+}
+}
+
+@media only screen and (min-width: 1300px){
+.sobre{
+  width: 860px;
+  margin-left: 50px;
+  padding: 90px;
+}
+}
