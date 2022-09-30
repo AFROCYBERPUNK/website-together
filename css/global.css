@@ -6,7 +6,19 @@
     letter-spacing: 1px;
     font-weight: 300;
 }
-
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #ecb51c;   /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid transparent;  /* creates padding around scroll thumb */
+  }
 nav{
     height: 6rem;
     width: 100vw;
@@ -42,7 +54,7 @@ nav{
     margin: 0 0.7vw;
 }
 .nav-links li a:hover {
-    color: #61DAFB;
+    color: #ecb51c;
 }
 .nav-links li {
     position: relative;
@@ -52,7 +64,7 @@ nav{
     display: block;
     height: 3px;
     width: 0%;
-    background-color: #61DAFB;
+    background-color: #ecb51c;
     position: absolute;
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;
@@ -110,6 +122,7 @@ nav{
     margin: 0;
     padding: 0;
     list-style: none;
+
 }
 
 .nav-links li {
@@ -118,9 +131,7 @@ nav{
 .nav-links> li {
     float: left;
 }
-.nav-links > li:hover {
-    background: #444;
-}
+
 .nav-links li:hover > .sub-menu {
     display: block;
 }
@@ -128,10 +139,10 @@ nav{
     display: none;
     position: absolute;
     min-width: 150px;
+    background: #b32d2e;
+    font-size: 15px;
 }
-.sub-menu li:hover {
-    background: #555;
-}
+
 .sub-menu .sub-menu {
     top: 0;
     left: 100%;
